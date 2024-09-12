@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Test",
+        "description": "ScriptAPI Test Behavior Pack",
+        "uuid": "e67b6fe8-8bea-469d-9b0c-7704535c4718",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 0 ]
+    },
+    "modules": [
+        {
+            "description": " ",
+            "type": "script",
+            "entry": "scripts/index.js",
+            "uuid": "1a1559f8-e930-47a8-95c6-06e233f204b9",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0-beta"
+        }
+    ]
+}
